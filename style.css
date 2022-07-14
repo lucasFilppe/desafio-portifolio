@@ -14,7 +14,7 @@
 body {
   background: var(--body-bg-color);
   font-family: 'DM Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -37,7 +37,7 @@ p {
   color: var(--text-color);
 }
 
-h4{
+h4 {
   color: var(--text-color);
   margin-top: 15px;
 }
@@ -46,6 +46,11 @@ a {
   text-decoration: none;
   color: var(--text-color);
   display: block;
+}
+
+a:hover {
+  color: var(--bg-techs);
+  opacity: 7s;
 }
 
 ul {
@@ -59,7 +64,7 @@ li {
   margin: 20px;
 }
 
-button{
+button {
   background: var(--bg-techs);
   width: 86px;
   height: 24px;
@@ -68,7 +73,6 @@ button{
   font-size: 15px;
   line-height: 12.57px;
   font: 700;
-
 }
 
 .text {
@@ -110,26 +114,26 @@ img.avatar {
   display: flex;
 }
 
-.cardTechnologies{
+.cardTechnologies {
   background: var(--bg-cards);
   margin-top: 40px;
   width: 100%;
   height: 208px;
   border-radius: 20px;
-  text-align: center
+  text-align: center;
 }
 
-.boxT{
+.boxT {
   margin: 15px;
 }
 
-.cardExperiences{
+.cardExperiences {
   background: var(--bg-cards);
   margin-top: 40px;
   width: 100%;
   height: 349px;
   border-radius: 20px;
-  text-align: center
+  text-align: center;
 }
 .cardProjets {
   background: var(--bg-cards);
@@ -138,13 +142,12 @@ img.avatar {
   display: flex;
   box-sizing: border-box;
   justify-content: space-between;
-  padding: 20px;
+  padding: 40px;
   margin-top: 40px;
   border-radius: 20px;
 }
 
-
-.projets{
+.projets {
   display: flex;
   margin-top: 40px;
 }
@@ -155,17 +158,25 @@ img.avatar {
   height: 186px;
   margin: 15px;
   background: var(--bg-cards);
+  padding: 30px;
 }
 
-.cardPost {
+.cardP h4 {
+  display: inline;
+  padding-left: 16px;
+}
+
+.cardP p {
+  padding: 16px;
+}
+
+.cardP a {
+  display: inline;
+}
+.cardPost  {
   display: flex;
-  background: var(--bg-cards);
   margin-top: 40px;
-  width: 100%;
-  height: 200px;
   border-radius: 20px;
+  margin-left: 66px; 
 }
-
-
-
 
