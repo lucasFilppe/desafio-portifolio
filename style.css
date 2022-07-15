@@ -103,6 +103,7 @@ img.avatar {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  border: 2px solid greenyellow;
 }
 
 .cardLinks {
@@ -134,7 +135,13 @@ img.avatar {
   height: 349px;
   border-radius: 20px;
   text-align: center;
+  padding: 5px;
 }
+
+.cardExperiences p {
+  padding-top: 5px;
+}
+
 .cardProjets {
   background: var(--bg-cards);
   width: 100%;
@@ -147,6 +154,12 @@ img.avatar {
   border-radius: 20px;
 }
 
+.cardProjets a:hover {
+  display: block;
+  background: var(--bg-techs);
+  border-radius: 10px;
+}
+
 .projets {
   display: flex;
   margin-top: 40px;
@@ -155,7 +168,7 @@ img.avatar {
 .cardP {
   border-radius: 20px;
   width: 461px;
-  height: 186px;
+  height: 250px;
   margin: 15px;
   background: var(--bg-cards);
   padding: 30px;
@@ -167,16 +180,20 @@ img.avatar {
 }
 
 .cardP p {
-  padding: 16px;
+  padding: 10px;
 }
 
 .cardP a {
   display: inline;
 }
-.cardPost  {
+.cardPost {
   display: flex;
   margin-top: 40px;
   border-radius: 20px;
-  margin-left: 66px; 
+  margin-left: 66px;
 }
 
+.rodape {
+  text-align: center;
+  padding: 10px;
+}
